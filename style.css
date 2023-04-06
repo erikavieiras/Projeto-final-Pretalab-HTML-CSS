@@ -1,0 +1,42 @@
+
+/*Font Family:  font-family: 'Nunito', sans-serif;  200, 300, 600, 900*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#menu {
+    padding: 1.5em;
+    background-color: rgb(94, 23, 161);
+}
+#menu ul {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 0.5em;
+}
+#menu li {
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0.4em;
+}
+.container-perfil {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 3em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+#perfil h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
