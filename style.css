@@ -36,7 +36,7 @@
 }
 .imagem-perfil {
     border-radius: 10%;
-    width: 15em;
+    width: 18em;
 }
 h1 {
     color: rgb(30, 2, 57);
@@ -49,12 +49,13 @@ h2{
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
+    margin-bottom: 0.8em;
 }
 #perfil p {
     font-family:'Nunito', sans-serif;
     color: rgb(30, 2, 57);
     font-weight: 200;
-    width: 25em;
+    width: 40em;
     text-align: center;
 }
 #container-formacao{
@@ -72,15 +73,18 @@ h2{
 h3 {
     color: rgb(30, 2, 57);
     font-weight: 600;
-    margin-bottom: 0.5em;
 }
 #formacao p {
     color: rgb(30, 2, 57);
     font-weight: 200;
     font-size: 1em;
+    width: 50em;
 }
 .formacoes {
     margin: 2em;
+}
+ a {
+    text-decoration: none;
 }
 #portifolio {
     font-family: 'Nunito', sans-serif;
@@ -107,10 +111,13 @@ h4 {
     margin-top: 0.4em;
     color: rgb(30, 2, 57);
     font-weight: 200;
-    font-size: 1em;
+    font-size: 1em;    opacity: 80%;
 }
 .projetos {
     margin: 2em;
+}
+.projetos p {
+    width: 50em;
 }
 footer {
     font-family: 'Nunito', sans-serif;
@@ -125,7 +132,6 @@ footer {
 }
 footer a {
     margin-bottom: 0.4em;
-    opacity: 80%;
     margin: 0.3em;
     color: white;
     text-decoration: none;
@@ -133,12 +139,18 @@ footer a {
 footer img {
     width: 1.5em;
 }
-footer a:hover {
+.grow:hover {
     opacity: 100%;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
+
+.grow {
+    opacity: 80%;
+    transition: all 0.2s ease-in-out;
+  }
+  .grow:active {
+    transform: scale(1.1);
+  }
 #copyright{
     text-align: center;
     font-size: 0.6em;
